@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TimerViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,18 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  
+  UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+  button.backgroundColor = [UIColor redColor];
+  [button setTitle:@"点我点我" forState:UIControlStateNormal];
+  [button addTarget:self action:@selector(openAction) forControlEvents:UIControlEventTouchUpInside];
+  [self.view addSubview:button];
 }
 
+- (void)openAction {
+  UIViewController *vc = [[TimerViewController alloc] init];
+  [self presentViewController:vc animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];

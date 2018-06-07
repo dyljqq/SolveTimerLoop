@@ -13,6 +13,8 @@
 		730AB66120C91138007A203A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730AB66020C91138007A203A /* Assets.xcassets */; };
 		730AB66420C91138007A203A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AB66220C91138007A203A /* LaunchScreen.storyboard */; };
 		730AB66720C91138007A203A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AB66620C91138007A203A /* main.m */; };
+		730AB66F20C9115D007A203A /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AB66E20C9115D007A203A /* TimerViewController.m */; };
+		730AB67220C918AC007A203A /* DJProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AB67120C918AC007A203A /* DJProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		730AB66320C91138007A203A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730AB66520C91138007A203A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		730AB66620C91138007A203A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730AB66D20C9115D007A203A /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		730AB66E20C9115D007A203A /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		730AB67020C918AC007A203A /* DJProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJProxy.h; sourceTree = "<group>"; };
+		730AB67120C918AC007A203A /* DJProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				730AB66220C91138007A203A /* LaunchScreen.storyboard */,
 				730AB66520C91138007A203A /* Info.plist */,
 				730AB66620C91138007A203A /* main.m */,
+				730AB66D20C9115D007A203A /* TimerViewController.h */,
+				730AB66E20C9115D007A203A /* TimerViewController.m */,
+				730AB67020C918AC007A203A /* DJProxy.h */,
+				730AB67120C918AC007A203A /* DJProxy.m */,
 			);
 			path = TimerDemo;
 			sourceTree = "<group>";
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730AB66F20C9115D007A203A /* TimerViewController.m in Sources */,
+				730AB67220C918AC007A203A /* DJProxy.m in Sources */,
 				730AB65C20C91137007A203A /* ViewController.m in Sources */,
 				730AB66720C91138007A203A /* main.m in Sources */,
 				730AB65920C91137007A203A /* AppDelegate.m in Sources */,
